@@ -33,6 +33,8 @@ button:focus {
   outline: none;
 }
 
+/* Ripple effect */
+
 button .circle {
   position: absolute;
   background-color: #fff;

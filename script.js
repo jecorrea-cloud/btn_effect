@@ -25,5 +25,10 @@ buttons.forEach((button) => {
     circle.style.left = xInside + "px";
 
     this.appendChild(circle);
+
+    // timeout to clean up the DOM
+    setTimeout(() => {
+      circle.remove();
+    }, 500);
   });
 });
